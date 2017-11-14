@@ -28,9 +28,9 @@ for month,variance in variances.items():
     sd[month] = math.sqrt(variance / monthDays[month])
 
 
-colors = ("blue", "yellow", "green")
+colors = ("blue", "red", "green")
 
-months = [1,2,3,4,5,6,7,8,9,10,11,12]
+months = ["January","February","March","May","April","June","July","August","September","October","November","December"]
 
 
 
